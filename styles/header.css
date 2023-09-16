@@ -6,6 +6,7 @@
     justify-content: space-between;
     
     
+    
     top:0;
     left:0;
     right : 0;
@@ -15,6 +16,19 @@
     border-color:rgb(209, 209, 209) ;
     
 
+}
+.middle {
+    display: flex;
+    flex-direction: row;
+    height : 385px;
+    width:1203px;
+    top:104px;
+    left:119px;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color:rgb(209, 209, 209) ;
+    
 }
 
 .linked-button,.Home-button,.Grid-button {
@@ -45,5 +59,58 @@
 .linked {
     height : 50px;
     width: 1fr;
+}
+
+.gradient {
+    background: linear-gradient(135.38deg, #3300FF 0%, #FA00FF 98.32%);
+    width:385px;
+}
+.Ecell-logo {
+    height:385px;
+    width:385px;
+}
+.ecell-logo {
+    height:385px;
+    width : 385px;
+}
+
+.Interactive-grid {
+    width: 385px;
+    height: 385px;
+    
+    
+    background: #D9D9D9;
+    position : relative;
+    border : 1px;
+    border-color: black;
+    border-radius: 15px;
+
+}
+
+.grid-b{
+    display:grid;
+    padding-top: 34.5px;
+    padding : 35.5px;
+    grid-template-columns: 100px 100px 100px;
+    position: absolute;
+    column-gap: 7px;
+    row-gap: 8px;
+    width : 314px;
+    height :316px;
+    
+    
+
+    
+
+}
+
+.buttons {
+    height:100px;
+    width:100px;
+    background: #00407A;
+    padding: 0px;
+    border: 0px;
+    border-radius: 15px;
+
 }
 
