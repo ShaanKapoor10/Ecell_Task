@@ -1,4 +1,8 @@
 
+button a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color from the button */
+}
 .Header {
     display : flex;
     flex-direction: row;
@@ -116,6 +120,12 @@
     padding: 0px;
     border: 0px;
     border-radius: 15px;
+    
 
 }
+
+.buttons:hover {
+    cursor: pointer;
+}
+
 
