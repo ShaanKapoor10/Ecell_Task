@@ -128,4 +128,11 @@ button a {
     cursor: pointer;
 }
 
+.red-buttons{
+    background: rgba(122, 0, 0, 1);
 
+}
+
+.blue-buttons {
+    background-color:#00407A; ;
+}
