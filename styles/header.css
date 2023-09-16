@@ -1,0 +1,49 @@
+
+.Header {
+    display : flex;
+    flex-direction: row;
+    height : 55px;
+    justify-content: space-between;
+    
+    
+    top:0;
+    left:0;
+    right : 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color:rgb(209, 209, 209) ;
+    
+
+}
+
+.linked-button,.Home-button,.Grid-button {
+    height : 55px;
+    border-style: solid;
+    border-width: 1px;
+    border : gray;
+    background-color: white;
+    position: relative;
+    cursor: pointer;
+    flex:1;
+
+}
+
+.linked-button{
+    background-color: lightblue;
+
+}
+
+.Grid-button{
+    background-color: pink;
+}
+
+.Home-button{
+    background-color: lightblue;
+}
+
+.linked {
+    height : 50px;
+    width: 1fr;
+}
+
