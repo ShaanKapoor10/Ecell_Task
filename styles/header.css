@@ -60,7 +60,7 @@ button a {
     border-width: 1px;
     border : gray;
     background-color: white;
-    position: relative;
+    
     cursor: pointer;
     flex:1;
 
