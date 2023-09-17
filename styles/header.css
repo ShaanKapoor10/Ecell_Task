@@ -1,4 +1,10 @@
 
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 button a {
     text-decoration: none; /* Remove underline */
     color: inherit; /* Inherit text color from the button */
@@ -18,12 +24,17 @@ button a {
     border-bottom-width: 1px;
     border-style: solid;
     border-color:rgb(209, 209, 209) ;
+    margin-top: 0px;
+    margin-bottom: 30px;
     
+
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 
 }
 .middle {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
     height : 385px;
     width:1203px;
@@ -34,7 +45,12 @@ button a {
     border-style: solid;
     border-color:rgb(255, 255, 255) ;
     
+    
 }
+
+
+
+
 
 .linked-button,.Home-button,.Grid-button {
     height : 55px;
@@ -57,6 +73,7 @@ button a {
 .gradient {
     background: linear-gradient(135.38deg, #3300FF 0%, #FA00FF 98.32%);
     width:385px;
+    height:385px;
     border-width: 1px;
     border-color: black;
     border-radius: 15px;
@@ -136,3 +153,32 @@ button a {
 .blue-buttons {
     background-color:#00407A; ;
 }
+
+
+@media (max-width: 910px) {
+    .middle{
+        grid-template-columns: 1fr;
+
+    }
+}
+
+@media (min-width: 911px) and (max-width: 1000px) {
+     .middle  
+    {   display:inline-block;
+
+    }
+    .gradient {
+        display: inline-block;
+        width:900px;
+    }
+    .Ecell-logo{
+        display: inline-block;
+        width: 1fr;
+    }
+    .Interactive-grid {
+        display: inline-block;
+        width: 1fr;
+    }
+}
+
+
