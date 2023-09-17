@@ -7,7 +7,7 @@ body{
 
 button a {
     text-decoration: none; /* Remove underline */
-    color: inherit; /* Inherit text color from the button */
+    color: inherit; /* Inherit text color from the button this is remving that default font */
 }
 .Header {
     display : flex;
